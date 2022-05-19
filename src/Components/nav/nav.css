@@ -1,0 +1,110 @@
+.Nav {
+  top: 0;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background: var(--background);
+}
+
+.navbar-logo {
+  color: var(--special-color);
+  margin-left: 40px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px solid var(--main-color);
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.navbar-logo:hover {
+  font-size: 40px;
+  border: 2px solid var(--special-color);
+  background-color: var(--secondary-color);
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.nav-links {
+  color: var(--main-color);
+  margin: 0 20px;
+  cursor: pointer;
+  transition: 2s;
+}
+
+.Nav__Items .active {
+  border-bottom: 2px solid white;
+}
+
+.nav-links:hover {
+  border-bottom: 2px solid white;
+}
+
+.button {
+  margin-right: 10px;
+  background-color: Transparent;
+}
+
+.button a {
+  background: transparent;
+  border: 1px solid var(--secondary-color);
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--special-color);
+  transition: all 0.25s;
+}
+.toggle-button {
+  position: absolute;
+  right: 40px;
+  font-size: 20px;
+  display: none;
+  cursor: pointer;
+}
+.button a:hover {
+  background: var(--secondary-color);
+}
+
+@media screen and (max-width: 850px) {
+  .Nav {
+    top: 0;
+    position: sticky;
+    background: var(--background);
+  }
+  .toggle-button {
+    display: block;
+  }
+
+  .button {
+    margin-top: 20px;
+  }
+
+  .Nav__Items {
+    display: flex;
+    position: absolute;
+    top: 8vh;
+    height: 50vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100vh);
+    background: var(--background);
+  }
+
+  .nav-menu {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    display: inline-block;
+    margin-bottom: 50px;
+  }
+
+  .active {
+    transform: translateX(0%);
+    transition: transform 0.5s ease-out;
+  }
+}

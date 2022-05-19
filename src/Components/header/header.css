@@ -1,0 +1,11 @@
+.Header {
+  display: grid;
+  justify-content: center;
+}
+
+.header-align {
+  height: 80vh;
+  margin-bottom: 10rem;
+  display: flex;
+  align-items: center;
+}

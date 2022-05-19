@@ -1,0 +1,81 @@
+.About {
+  display: flex;
+  justify-content: center;
+  justify-content: row;
+}
+
+.about-button {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.About__Content {
+  width: 1000px;
+  display: grid;
+  grid-template-rows: 3fr 2fr;
+  gap: 50px;
+}
+
+.about-text {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.about-skills {
+  text-align: center;
+}
+.about-icons {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  font-size: 50px;
+  color: var(--special-color);
+}
+
+/* .about-button button:first-child {
+  border-left: 2px solid var(--green);
+  color: var(--green);
+} */
+
+.about-button-default {
+  margin-right: 50px;
+  padding: 0 20px 0;
+  height: 50px;
+  cursor: pointer;
+  color: var(--slate);
+  background-color: transparent;
+  border-bottom: 2px solid var(--secondary-color);
+  transition: all 0.5s;
+  font-size: 15px;
+  font-family: "Roboto Slab", serif;
+  text-align: start;
+}
+
+.about-button-default:hover {
+  background: var(--secondary-color);
+  color: var(--special-color);
+}
+
+.about-button-active {
+  margin-right: 50px;
+  padding: 0 20px 0;
+  height: 50px;
+  cursor: pointer;
+  color: var(--special-color);
+  background-color: transparent;
+  border-bottom: 2px solid var(--special-color);
+  transition: all 0.25s;
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: "Roboto Slab", serif;
+  text-align: start;
+}
+
+.image-about img {
+  width: 100%;
+}
+
+.About__Content {
+  text-align: center;
+}

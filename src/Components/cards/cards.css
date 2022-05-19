@@ -1,0 +1,25 @@
+.Cards {
+  display: flex;
+  height: 80px;
+  background: green;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  background: blue;
+  width: 30px;
+  height: 30px;
+}
+
+.card1 {
+  margin-left: 5px;
+}
+
+.card2 {
+  margin-left: 5px;
+}
+
+.card3 {
+  margin-right: 5px;
+}
