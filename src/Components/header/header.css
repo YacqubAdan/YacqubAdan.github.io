@@ -1,11 +1,10 @@
 .Header {
   display: grid;
   justify-content: center;
+  overflow-x: hidden;
 }
 
-.header-align {
-  height: 80vh;
+.h-margin {
+  margin-top: -10vh;
   margin-bottom: 10rem;
-  display: flex;
-  align-items: center;
 }

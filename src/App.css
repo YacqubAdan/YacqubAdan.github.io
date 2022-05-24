@@ -1,9 +1,0 @@
-.container {
-  margin-inline: auto;
-  text-align: center;
-  width: min(90%, 70.5rem);
-}
-
-.container--narrow {
-  max-width: 40rem;
-}

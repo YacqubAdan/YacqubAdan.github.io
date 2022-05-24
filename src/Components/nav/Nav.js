@@ -14,7 +14,7 @@ const Nav = () => {
 
   const renderClasses = () => {
     let classes = "Nav__Items";
-    if (navLinkOpen) {
+    if (!navLinkOpen) {
       classes += " active";
     }
     return classes;
@@ -50,12 +50,12 @@ const Nav = () => {
               </li>
             );
           })}
-          <button className="button">
-            <a href={CV} download="yacquubAdanResume">
-              resume
-            </a>
-          </button>
         </ul>
+        <button className="button">
+          <a href={CV} download="yacquubAdanResume">
+            resume
+          </a>
+        </button>
       </div>
     </div>
   );

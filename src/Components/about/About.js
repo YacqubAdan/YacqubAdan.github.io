@@ -3,11 +3,16 @@ import "./about.css";
 import ImageLogo from "./../../assets/coding.png";
 import { AboutContent } from "./AboutContent";
 import { FaReact } from "react-icons/fa";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { SiTypescript, SiMongodb } from "react-icons/si";
 import { DiJavascript1, DiNodejs, DiJava, DiSwift } from "react-icons/di";
+import { fagithub } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Avatar from "./../../assets/avatar.png";
+
 const About = () => {
-  const { about, skills, experience, education } = AboutContent;
-  const [aboutContent, changeAboutContent] = useState(about);
+  const { about, experience, education } = AboutContent;
+  const [aboutContent, changeAboutContent] = useState(about.text);
   const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
@@ -16,10 +21,66 @@ const About = () => {
 
   return (
     <div className="About" id="about">
-      <section>
-        <h1 className="section-title">01. About Me</h1>
-        <div className="About__Container">
-          <div className="about-button">
+      <div className="about-wrapper">
+        <div className="about-left">
+          <div className="about-left-content">
+            <div>
+              <div className="shadow">
+                <div className="about-img">
+                  <img src={Avatar} alt="avatar" />
+                </div>
+              </div>
+
+              <h2 className="main-input">Yacquub Adan</h2>
+              <h3>Full Stack Developer</h3>
+            </div>
+
+            <ul className="icons">
+              <li>
+                <a
+                  href="https://github.com/YacqubAdan"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/yacquub-adan-b17535234/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <AiFillLinkedin />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="about-left-content content-input">
+            <h3>Skills & Languages</h3>
+            <ul className="icons">
+              <li>
+                <DiJavascript1 />
+              </li>
+              <li>
+                <DiNodejs />
+              </li>
+              <li>
+                <DiSwift />
+              </li>
+              <li>
+                <FaReact />
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="about-right">
+          <h1 className="big-heading-light">
+            About<span>ME!</span>
+          </h1>
+          <h2>journey...</h2>
+          <div className="about-btns">
             <button
               className={
                 toggleState === 1
@@ -28,7 +89,7 @@ const About = () => {
               }
               onClick={() => {
                 toggleTab(1);
-                changeAboutContent(about);
+                changeAboutContent(about.text);
               }}
             >
               About
@@ -41,43 +102,18 @@ const About = () => {
               }
               onClick={() => {
                 toggleTab(2);
-                changeAboutContent(education);
+                changeAboutContent(education.text);
               }}
             >
               Education
             </button>
-            <button
-              className={
-                toggleState === 3
-                  ? "about-button-active"
-                  : "about-button-default"
-              }
-              onClick={() => {
-                toggleTab(3);
-                changeAboutContent(experience);
-              }}
-            >
-              Experience
-            </button>
           </div>
-          <div className="About__Content">
-            <div className="about-text">
-              <p>{aboutContent}</p>
-            </div>
-            <div className="about-skills">
-              <p>{skills}</p>
-              <div className="about-icons">
-                <FaReact />
-                <DiJavascript1 />
-                <DiNodejs />
-                <DiSwift />
-                <SiTypescript />
-                <SiMongodb />
-              </div>
-            </div>
+
+          <div className="about-para">
+            <p>{aboutContent}</p>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   );
 };

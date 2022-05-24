@@ -1,4 +1,5 @@
 .Nav {
+  z-index: 3;
   top: 0;
   position: sticky;
   display: flex;
@@ -24,6 +25,10 @@
   background-color: var(--secondary-color);
 }
 
+.Nav__Items {
+  display: flex;
+}
+
 .nav-menu {
   display: flex;
 }
@@ -32,15 +37,15 @@
   color: var(--main-color);
   margin: 0 20px;
   cursor: pointer;
-  transition: 2s;
+  transition: 0.5s;
 }
 
 .Nav__Items .active {
-  border-bottom: 2px solid white;
+  color: var(--special-color);
 }
 
 .nav-links:hover {
-  border-bottom: 2px solid white;
+  color: var(--special-color);
 }
 
 .button {
@@ -68,12 +73,7 @@
   background: var(--secondary-color);
 }
 
-@media screen and (max-width: 850px) {
-  .Nav {
-    top: 0;
-    position: sticky;
-    background: var(--background);
-  }
+@media screen and (max-width: 800px) {
   .toggle-button {
     display: block;
   }

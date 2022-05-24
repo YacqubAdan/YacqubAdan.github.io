@@ -4,7 +4,7 @@ import "./header.css";
 const Header = () => {
   return (
     <div className="Header" id="header">
-      <section className="header-align">
+      <section className="section-general h-margin">
         <div className="container container--narrow">
           <h1 className="small-heading">Hi, my name is</h1>
           <h1 className="big-heading-light">Yacquub Adan.</h1>
