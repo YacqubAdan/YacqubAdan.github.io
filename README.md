@@ -16,7 +16,7 @@ In this section we break down each of my projects
 
 #### Lakers
 
-This lakers
+This lakers website was my first university project that i made using vanilla JS, HTML and CSS.
 
 #### Quiz-Go
 
