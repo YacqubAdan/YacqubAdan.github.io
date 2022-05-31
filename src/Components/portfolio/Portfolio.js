@@ -3,6 +3,7 @@ import "./portfolio.scss";
 import LakersImage from "./../../assets/Lakers.JPG";
 import CovidBlogs from "./../../assets/CovidBlogs.JPG";
 import QuizGo from "./../../assets/QuizGo.JPG";
+import Netflix from "./../../assets/Netflix-App.JPG";
 import Project from "./../../assets/QuizGoProject.pdf";
 import Presentation from "./../../assets/Quiz Go Prensentation.pptx.pdf";
 
@@ -113,6 +114,15 @@ const Portfolio = () => {
                   <br />
                   <button className="button">
                     <a
+                      href="https://covid-community-blog.herokuapp.com"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Live
+                    </a>
+                  </button>
+                  <button className="button">
+                    <a
                       href="https://github.com/YacqubAdan/CovidBlogs"
                       target="_blank"
                       rel="noreferrer"
@@ -131,6 +141,51 @@ const Portfolio = () => {
             </div>
             <div className="project-img">
               <img src={CovidBlogs} alt="" />
+            </div>
+          </div>
+          <div className="project">
+            <div className="project-content swap">
+              <div className="project-label">Personal Project</div>
+              <h4 className="project-title">Netflix Clone</h4>
+              <div className="project-details">
+                <p>
+                  The Netflix clone project was something i was really
+                  interested in because not only do i enjoy watching films, but
+                  i really enjoy the look of the companys website. From the site
+                  'TheMovieDatabase' i was able to acquire an API which
+                  essentially allowed me to construct the website. During the
+                  development, I learned about tailwind a CSS framework and fell
+                  in love with the syntax and feel of it.
+                  <br />
+                  <br />
+                  <button className="button">
+                    <a
+                      href="https://yacquub-movie-app.netlify.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Live
+                    </a>
+                  </button>
+                  <button className="button">
+                    <a
+                      href="https://github.com/YacqubAdan/movie-app"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      GitHub
+                    </a>
+                  </button>
+                </p>
+                <ul>
+                  <li>React</li>
+                  <li>tailwindcss</li>
+                  <li>HTML</li>
+                </ul>
+              </div>
+            </div>
+            <div className="swap2 project-img">
+              <img src={Netflix} alt="" />
             </div>
           </div>
         </div>
