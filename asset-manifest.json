@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.8520a130.css",
-    "main.js": "/static/js/main.1e90f987.js",
+    "main.js": "/static/js/main.7a6da282.js",
     "static/media/QuizGoProject.pdf": "/static/media/QuizGoProject.ee33cf0d7b964b05c64b.pdf",
     "static/media/Quiz Go Prensentation.pptx.pdf": "/static/media/Quiz Go Prensentation.pptx.55c0b5f359be9681c7bb.pdf",
     "static/media/Lakers.JPG": "/static/media/Lakers.db287df4b4320f4e8c2c.JPG",
-    "static/media/resume.PDF": "/static/media/resume.43e76a4d85b2fdc7d846.PDF",
+    "static/media/resume.PDF": "/static/media/resume.42d9d460e1ce16f4e072.PDF",
     "static/media/Netflix-App.JPG": "/static/media/Netflix-App.5f4cfd54ebc74a42e0f1.JPG",
     "static/media/CovidBlogs.JPG": "/static/media/CovidBlogs.21f6d94d34fabff7164b.JPG",
     "static/media/QuizGo.JPG": "/static/media/QuizGo.38840fca4016fdf339ca.JPG",
     "static/media/coding.png": "/static/media/coding.e25161dd02c84d553182.png",
     "index.html": "/index.html",
     "main.8520a130.css.map": "/static/css/main.8520a130.css.map",
-    "main.1e90f987.js.map": "/static/js/main.1e90f987.js.map"
+    "main.7a6da282.js.map": "/static/js/main.7a6da282.js.map"
   },
   "entrypoints": [
     "static/css/main.8520a130.css",
-    "static/js/main.1e90f987.js"
+    "static/js/main.7a6da282.js"
   ]
 }
