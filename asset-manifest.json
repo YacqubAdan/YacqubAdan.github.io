@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8520a130.css",
-    "main.js": "/static/js/main.7a6da282.js",
+    "main.js": "/static/js/main.aa6ab9b4.js",
     "static/media/QuizGoProject.pdf": "/static/media/QuizGoProject.ee33cf0d7b964b05c64b.pdf",
     "static/media/Quiz Go Prensentation.pptx.pdf": "/static/media/Quiz Go Prensentation.pptx.55c0b5f359be9681c7bb.pdf",
     "static/media/Lakers.JPG": "/static/media/Lakers.db287df4b4320f4e8c2c.JPG",
@@ -12,10 +12,10 @@
     "static/media/coding.png": "/static/media/coding.e25161dd02c84d553182.png",
     "index.html": "/index.html",
     "main.8520a130.css.map": "/static/css/main.8520a130.css.map",
-    "main.7a6da282.js.map": "/static/js/main.7a6da282.js.map"
+    "main.aa6ab9b4.js.map": "/static/js/main.aa6ab9b4.js.map"
   },
   "entrypoints": [
     "static/css/main.8520a130.css",
-    "static/js/main.7a6da282.js"
+    "static/js/main.aa6ab9b4.js"
   ]
 }
