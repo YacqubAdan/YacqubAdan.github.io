@@ -19,12 +19,12 @@ const Portfolio = () => {
               <h4 className="project-title">Lakers Theme Website</h4>
               <div className="project-details">
                 <p>
-                  This was my first project and an introduction into web
-                  development. Here i used vanilla JavaScript HTML and CSS
+                  This was my first project and an introduction to web
+                  development. Here I used vanilla JavaScript HTML and CSS
                   purely as this was required for the front-end module in the
-                  course. I enjoyed learning styling my elements, making it come
-                  to life and interacting with the DOM. We also learnt about
-                  Asynchronous code and APIs which i made use of in this
+                  course. I enjoyed learning to style my elements, making them
+                  come to life, and interacting with the DOM. We also learned
+                  about Asynchronous code and APIs which I made use of on this
                   website.
                   <br />
                   <br />
@@ -98,18 +98,18 @@ const Portfolio = () => {
           </div>
           <div className="project">
             <div className="project-content">
-              <div className="project-label">Personal Project</div>
+              <div className="project-label">Project</div>
               <h4 className="project-title">Covid Blogs</h4>
               <div className="project-details">
                 <p>
-                  Covid Blogs is a website which enables people to converse,
-                  share their experiences and much more in the form of blogs.
-                  Users are prompted to register and login in order to create
-                  view and comment on community blogs/articles. The idea behind
+                  Covid Blogs is a website that enables people to converse,
+                  share their experiences, and much more in the form of blogs.
+                  Users are prompted to register and login in order to create,
+                  view, and comment on community blogs/articles. The idea behind
                   the creation of this website was to bring people together and
                   create a community during the covid pandemic. I made use of
-                  MongoDB NodeJs and Express for my backend storing users, blogs
-                  and comments into the database.
+                  MongoDB NodeJs and Express for my backend storing users,
+                  blogs, and comments in the database.
                   <br />
                   <br />
                   <button className="button">
@@ -149,13 +149,13 @@ const Portfolio = () => {
               <h4 className="project-title">Netflix Clone</h4>
               <div className="project-details">
                 <p>
-                  The Netflix clone project was something i was really
-                  interested in because not only do i enjoy watching films, but
-                  i really enjoy the look of the companys website. From the site
-                  'TheMovieDatabase' i was able to acquire an API which
+                  The Netflix clone project was something I was really
+                  interested in because not only do I enjoy watching films, but
+                  I really enjoy the look of the company’s website. From the
+                  site 'TheMovieDatabase' I was able to acquire an API that
                   essentially allowed me to construct the website. During the
-                  development, I learned about tailwind a CSS framework and fell
-                  in love with the syntax and feel of it.
+                  development, I learned about tailwind a CSS framework, and
+                  fell in love with the syntax and feel of it.
                   <br />
                   <br />
                   <button className="button">
