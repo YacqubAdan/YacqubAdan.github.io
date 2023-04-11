@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./nav.css";
 import { Link } from "react-scroll";
 import { MenuItems } from "./MenuItems";
-import CV from "../../assets/resume.PDF";
+import CV from "../../assets/resume.pdf";
 import { FaBars } from "react-icons/fa";
 
 const Nav = () => {

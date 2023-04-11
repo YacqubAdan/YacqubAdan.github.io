@@ -92,11 +92,6 @@
   border-radius: 2px;
   grid-column: 6 / -1;
   grid-row: 1 / -1;
-  background-color: linear-gradient(
-    0.4turn,
-    var(--special-color),
-    var(--main-color)
-  );
 
   @media screen and (max-width: 768px) {
     height: 100%;
