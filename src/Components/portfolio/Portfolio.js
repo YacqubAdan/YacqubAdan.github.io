@@ -17,7 +17,7 @@ const Portfolio = () => {
           <div className="project">
             <div className="project-content">
               <div className="project-label">Client Project</div>
-              <h4 className="project-title">Beaumont Leys Mosque</h4>
+              <h4 className="project-title">BlMuslims</h4>
               <div className="project-details">
                 <p>
                   As a dedicated member of my local community, I was involved in
