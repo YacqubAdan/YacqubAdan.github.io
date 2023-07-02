@@ -4,11 +4,11 @@ export const MenuItems = [
     url: "header",
     cName: "nav-links",
   },
-  {
-    title: "About",
-    url: "about",
-    cName: "nav-links",
-  },
+  // {
+  //   title: "About",
+  //   url: "about",
+  //   cName: "nav-links",
+  // },
   {
     title: "Portfolio",
     url: "portfolio",

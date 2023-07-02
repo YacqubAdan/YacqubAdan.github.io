@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.scss";
 import LakersImage from "./../../assets/Lakers.JPG";
-import CovidBlogs from "./../../assets/CovidBlogs.JPG";
+import GoldenShoe from "./../../assets/golden-shoe.jpg";
 import QuizGo from "./../../assets/QuizGo.JPG";
 import Netflix from "./../../assets/Netflix-App.JPG";
 import Project from "./../../assets/QuizGoProject.pdf";
@@ -97,22 +97,34 @@ const Portfolio = () => {
           <div className="project">
             <div className="project-content">
               <div className="project-label">Project</div>
-              <h4 className="project-title">Covid Blogs</h4>
+              <h4 className="project-title">Golden Shoe</h4>
               <div className="project-details">
                 <p>
-                  Covid Blogs is a website that enables people to converse,
-                  share their experiences, and much more in the form of blogs.
-                  Users are prompted to register and login in order to create,
-                  view, and comment on community blogs/articles. The idea behind
-                  the creation of this website was to bring people together and
-                  create a community during the covid pandemic. I made use of
-                  MongoDB NodeJs and Express for my backend storing users,
-                  blogs, and comments in the database.
+                  I created this project for Golden Shoe, a well-known British
+                  shoe company that was facing a decline in revenue and needed
+                  digital transformation. I used MongoDB, Express, React, Redux,
+                  Nodejs and Tailwind as my tech stack to build a modern,
+                  responsive and user-friendly website. I solved the challenges
+                  that Golden Shoe faced such as improving the website's
+                  aesthetics, creating a stock system that updates in real time,
+                  implementing a search filter system that allows customers to
+                  find their desired products easily, and more. This project
+                  showcases my skills and creativity as a full-stack web
+                  developer.
                   <br />
                   <br />
                   <button className="button">
                     <a
-                      href="https://github.com/YacqubAdan/CovidBlogs"
+                      href="https://goldenshoe-api.onrender.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Live
+                    </a>
+                  </button>
+                  <button className="button">
+                    <a
+                      href="https://github.com/YacqubAdan/Golden-Shoe"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -121,15 +133,15 @@ const Portfolio = () => {
                   </button>
                 </p>
                 <ul>
-                  <li>Nodejs</li>
-                  <li>EJS</li>
-                  <li>Express</li>
                   <li>MongoDB</li>
+                  <li>React</li>
+                  <li>Redux</li>
+                  <li>NodeJS</li>
                 </ul>
               </div>
             </div>
             <div className="project-img">
-              <img src={CovidBlogs} alt="" />
+              <img src={GoldenShoe} alt="" />
             </div>
           </div>
 
